@@ -5,7 +5,7 @@
     </div>
     <div class="flex flex-col sm:flex-row">
       <div class="w-full sm:w-2/3">
-        <div v-for="n in 3" :key="n" class="article py-5">
+        <div v-for="n in 2" :key="n" class="article py-5">
           <img class="object-cover" src="https://images.unsplash.com/photo-1596307509444-8448c605d6da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="" srcset="article background images">
           <div class="font-bold text-lg pt-3 cursor-pointer hover:text-gray-600" @click="goto('123')">
             KTM Marchetti Signs with Larranaga
@@ -19,11 +19,11 @@
             nonessential businesses and placing its population under what one newspaper called "house arrest", voices of disquiet over the economic cost of such measures grew louder, even as public health experts warned that relaxing restrictions could significantly increase the death toll.
           </div>
         </div>
-        <div class="pagination flex justify-center">
+        <div class="pagination flex justify-center mb-8">
           <div class="next py-3 px-5 my-3 hover:bg-gray-400 flex items-center cursor-pointer">
             <img src="~/assets/images/icon/next.png" class="page-icon pre-page" alt="go to next page icon">
           </div>
-          <div v-for="n in 5" :key="n" class="pageNumber py-3 px-5 my-3 hover:bg-gray-400 cursor-pointer">
+          <div v-for="n in 5" :key="n" class="pageNumber py-3 px-5 my-3  hover:bg-gray-400 cursor-pointer">
             {{ n }}
           </div>
           <div class="next py-3 px-5 my-3 hover:bg-gray-400 flex items-center cursor-pointer">

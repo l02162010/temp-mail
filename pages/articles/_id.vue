@@ -24,7 +24,7 @@
       </div>
       <img class="order-first sm:order-none w-full sm:w-1/2 object-cover max-h-350" src="https://images.unsplash.com/photo-1596307509444-8448c605d6da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="" srcset="">
     </div>
-    <div class="flex flex-col sm:flex-row mt-10">
+    <div class="flex flex-col sm:flex-row mt-10 mb-8">
       <div class="w-full sm:w-2/3 text-sm p-3 sm:p-5 sm:pl-0">
         <p>
           With more states across America ordering millions to stay home, and Britain joining the rest of Europe in shuttering nonessential businesses and placing its population under what one newspaper called “house arrest”, voices of disquiet over the economic cost of such measures grew louder, even as public health experts warned that relaxing restrictions could significantly increase the death toll.

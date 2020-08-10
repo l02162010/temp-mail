@@ -30,9 +30,9 @@
       </div>
     </div>
     <div class="container">
-      <div class="flex flex-col sm:flex-row my-10 mx-3 border-2 border-dashed-image">
+      <div class="flex flex-col sm:flex-row my-10 border-2 border-dashed-image mx-3">
         <div
-          class="flex flex-col items-center sm:w-1/3 border-b-2 sm:border-r-2 border-dashed-image p-5 min-h-350 max-h-350 overflow-scroll"
+          class="flex flex-col items-center sm:w-1/3 border-b-2 sm:border-b-0 sm:border-r-2 border-dashed-image p-5 min-h-350 max-h-350 overflow-scroll"
           :class="{'justify-center': receiveMails && receiveMails.length === 0}"
         >
           <div v-if="receiveMails && receiveMails.length === 0">
