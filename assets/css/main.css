@@ -1,0 +1,60 @@
+.border-dashed-image {
+  border-image-source: url(~assets/images/border-box.png);
+  border-image-slice: 2;
+	border-image-repeat: round;
+}
+.min-h-250 {
+  min-height: 250px;
+}
+
+.min-h-350 {
+  min-height: 150px;
+}
+
+.max-h-350 {
+  max-height: 250px;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) { 
+  .min-h-350 {
+    min-height: 350px;
+  }
+  
+  .max-h-350 {
+    max-height: 350px;
+  }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+  .min-h-350 {
+    min-height: 350px;
+  }
+  
+  .max-h-350 {
+    max-height: 350px;
+  }
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) { 
+  .min-h-350 {
+    min-height: 350px;
+  }
+  
+  .max-h-350 {
+    max-height: 350px;
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { 
+  .min-h-350 {
+    min-height: 350px;
+  }
+  
+  .max-h-350 {
+    max-height: 350px;
+  }
+}
