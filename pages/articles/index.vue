@@ -7,7 +7,7 @@
       <div class="w-full sm:w-2/3">
         <div v-for="n in 3" :key="n" class="article py-5">
           <img class="object-cover" src="https://images.unsplash.com/photo-1596307509444-8448c605d6da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="" srcset="article background images">
-          <div class="font-bold text-lg pt-3 cursor-pointer hover:text-gray-600">
+          <div class="font-bold text-lg pt-3 cursor-pointer hover:text-gray-600" @click="goto('123')">
             KTM Marchetti Signs with Larranaga
             and Zanotti for Next Season
           </div>
@@ -42,7 +42,11 @@
 
 <script>
 export default {
-
+  methods: {
+    goto (id) {
+      this.$router.push({ name: 'articles-id', params: { id } })
+    }
+  }
 }
 </script>
 
