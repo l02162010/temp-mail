@@ -1,5 +1,5 @@
 <template>
-  <div class="container sm:mt-10  px-3 sm:px-0">
+  <div class="container sm:mt-10 px-3 sm:px-0">
     <div class="italic font-bold text-2xl">
       Privacy
     </div>

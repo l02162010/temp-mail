@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between sm:justify-around items-center p-5">
+  <div class="flex justify-between items-center mx-auto py-5 max-w-screen-xl">
     <MobileHamburger ref="mobileHamburger" class="flex sm:hidden" @isOpen="handleIsMobileNavOpen" />
     <div class="text-xl font-bold flex justify-center">
       TEMP MAIL
