@@ -61,7 +61,7 @@
           The defense ministry said that dead bodies had been found in multiple nursing homes that had discharged large number of employees in the wake of the outbreaks, but did not provide further details, El País, a daily broadsheet, reported.
         </p>
       </div>
-      <div class="w-full sm:w-1/3 p-3 sm:py-5">
+      <div class="w-full sm:w-1/3 p-3 sm:pr-0 sm:py-5">
         <div class="shareBox flex justify-between">
           <span class="italic font-semibold">share</span>
           <div class="flex items-center">
