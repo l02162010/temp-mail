@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="flex flex-col sm:flex-row sm:mt-10">
-      <div class="w-full sm:w-1/2 pr-3 pt-3 pb-3 sm:pr-10">
+      <div class="w-full sm:w-1/2 p-3 sm:pl-0 sm:pr-10">
         <div class="font-bold text-2xl">
           Coronavirus spreads
           to sub-Saharan Africa

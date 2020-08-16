@@ -1,7 +1,11 @@
 <template>
-  <div class="flex justify-between items-center mx-auto py-5 max-w-screen-xl" style="height:90px">
-    <MobileHamburger ref="mobileHamburger" class="flex sm:hidden" @isOpen="handleIsMobileNavOpen" />
-    <div class="text-xl font-bold flex justify-start w-1/3">
+  <div
+    class="flex justify-around sm:justify-between items-center mx-auto py-5
+            sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl"
+    style="height:90px"
+  >
+    <MobileHamburger ref="mobileHamburger" class="flex w-1/3 sm:hidden" @isOpen="handleIsMobileNavOpen" />
+    <div class="text-xl font-bold flex justify-center sm:justify-start w-1/3">
       TEMP MAIL
     </div>
     <div v-if="isMobileNavOpen" class="mobileNav absolute sm:hidden">
@@ -24,7 +28,7 @@
         {{ p.text }}
       </div>
     </div>
-    <DropDown class="flex justify-end w-1/3" :value="currentLang" :list="langList" @selected="handleLang" />
+    <DropDown class="flex justify-end w-1/3 pr-3 sm:pr-0" :value="currentLang" :list="langList" @selected="handleLang" />
   </div>
 </template>
 <script>

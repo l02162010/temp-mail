@@ -1,6 +1,9 @@
 <template>
   <div class="bg-sun py-5">
-    <div class="flex flex-col sm:flex-row justify-between items-start mt-8 max-w-screen-xl mx-auto">
+    <div
+      class="flex flex-col sm:flex-row sm:justify-between items-center sm:items-start mt-8 mx-auto
+            sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl"
+    >
       <img src="~/assets/images/logo.png" alt="a logo images" srcset="">
       <div class="flex flex-col justify-around items-center mt-3 sm:mt-0">
         <div class="text-sm max-w-3xl text-center sm:text-left">
@@ -11,13 +14,13 @@
         </div>
       </div>
       <div class="flex flex-col justify-around items-center mt-3 sm:mt-0">
-        <div class="text-gray-700 pr-3 cursor-pointer hover:text-gray-900">
+        <div class="text-gray-700 sm:pr-3 cursor-pointer hover:text-gray-900">
           Home
         </div>
-        <div class="text-gray-700 pr-3 cursor-pointer hover:text-gray-900">
+        <div class="text-gray-700 sm:pr-3 cursor-pointer hover:text-gray-900">
           Article
         </div>
-        <div class="text-gray-700 pr-3 cursor-pointer hover:text-gray-900">
+        <div class="text-gray-700 sm:pr-3 cursor-pointer hover:text-gray-900">
           Privacy
         </div>
       </div>

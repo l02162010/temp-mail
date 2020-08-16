@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="flex flex-col sm:flex-row my-10 border-2 border-dashed-image">
+      <div class="flex flex-col mx-3 my-10 sm:mx-0 sm:flex-row border-2 border-dashed-image">
         <div
           class="flex flex-col items-center sm:w-1/3 border-b-2 sm:border-b-0 sm:border-r-2 border-dashed-image p-5 min-h-350 max-h-350 overflow-scroll"
           :class="{'justify-center': receiveMails && receiveMails.length === 0}"
@@ -51,7 +51,7 @@
           Popular Articles
         </div>
         <div class="flex flex-col sm:flex-row justify-around w-full">
-          <div v-for="n in 3" :key="n" :class="{'pr-3': n !== 3}">
+          <div v-for="n in 3" :key="n" class="p-3 sm:p-0" :class="{'sm:pr-3': n !== 3}">
             <div class="articleImage max-w-full">
               <img class="object-cover" src="https://images.unsplash.com/photo-1596307509444-8448c605d6da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="" srcset="">
             </div>
