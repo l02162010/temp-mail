@@ -1,10 +1,10 @@
 <template>
-  <div class="flex justify-between items-center mx-auto py-5 max-w-screen-xl">
+  <div class="flex justify-between items-center mx-auto py-5 max-w-screen-xl" style="height:90px">
     <MobileHamburger ref="mobileHamburger" class="flex sm:hidden" @isOpen="handleIsMobileNavOpen" />
-    <div class="text-xl font-bold flex justify-center">
+    <div class="text-xl font-bold flex justify-start w-1/3">
       TEMP MAIL
     </div>
-    <div v-show="isMobileNavOpen" class="mobileNav absolute sm:hidden">
+    <div v-if="isMobileNavOpen" class="mobileNav absolute sm:hidden">
       <div
         v-for="p in pageList"
         :key="p.value"
@@ -18,13 +18,13 @@
       <div
         v-for="p in pageList"
         :key="p.value"
-        class="text-gray-600 pr-3 cursor-pointer hover:text-gray-800"
+        class="text-gray-600 px-4 cursor-pointer hover:text-gray-800"
         @click="goto(p.value)"
       >
         {{ p.text }}
       </div>
     </div>
-    <DropDown class="flex justify-center" :value="currentLang" :list="langList" @selected="handleLang" />
+    <DropDown class="flex justify-end w-1/3" :value="currentLang" :list="langList" @selected="handleLang" />
   </div>
 </template>
 <script>

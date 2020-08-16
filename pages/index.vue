@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-col my-5 sm:my-10 justify-center items-center w-full bg-sun min-h-250">
+    <div class="flex flex-col my-5 sm:mb-10 sm:mt-0 justify-center items-center w-full bg-sun min-h-250 ">
       <div class="text-2xl font-semibold pt-5">
         Your Temporary Email Address
       </div>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="flex flex-col sm:flex-row my-10 border-2 border-dashed-image mx-3">
+      <div class="flex flex-col sm:flex-row my-10 border-2 border-dashed-image">
         <div
           class="flex flex-col items-center sm:w-1/3 border-b-2 sm:border-b-0 sm:border-r-2 border-dashed-image p-5 min-h-350 max-h-350 overflow-scroll"
           :class="{'justify-center': receiveMails && receiveMails.length === 0}"
@@ -46,12 +46,12 @@
           <img src="~/assets/images/empty-mail.png" alt="" srcset="">
         </div>
       </div>
-      <div class="flex flex-col my-10 justify-center items-center w-full min-h-250">
+      <div class="flex flex-col my-10 sm:mb-20 justify-center items-center w-full min-h-250">
         <div class="title text-3xl pb-5 font-bold">
           Popular Articles
         </div>
         <div class="flex flex-col sm:flex-row justify-around w-full">
-          <div v-for="n in 3" :key="n" class="p-3">
+          <div v-for="n in 3" :key="n" :class="{'pr-3': n !== 3}">
             <div class="articleImage max-w-full">
               <img class="object-cover" src="https://images.unsplash.com/photo-1596307509444-8448c605d6da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="" srcset="">
             </div>

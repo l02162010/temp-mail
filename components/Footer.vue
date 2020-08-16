@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-sun p-5">
-    <div class="flex flex-col sm:flex-row justify-around items-start mt-12">
+  <div class="bg-sun py-5">
+    <div class="flex flex-col sm:flex-row justify-between items-start mt-8 max-w-screen-xl mx-auto">
       <img src="~/assets/images/logo.png" alt="a logo images" srcset="">
       <div class="flex flex-col justify-around items-center mt-3 sm:mt-0">
         <div class="text-sm max-w-3xl text-center sm:text-left">

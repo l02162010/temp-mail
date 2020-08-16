@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="w-full sm:w-1/3">
-        <div v-for="n in 5" :key="n" class="ad flex justify-center items-center my-3 sm:ml-5">
+        <div v-for="n in 5" :key="n" class="ad flex justify-center items-center my-5 sm:ml-5">
           AD
         </div>
       </div>
@@ -56,8 +56,8 @@ export default {
   }
 
 .ad {
-  width: 100%;
-  min-height: 150px;
+  width: 300px;
+  min-height: 250px;
   background-color: #d3d3d3;
   padding: 10px;
 }
