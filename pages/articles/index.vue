@@ -56,7 +56,6 @@ export default {
   }
 
 .ad {
-  width: 300px;
   min-height: 250px;
   background-color: #d3d3d3;
   padding: 10px;
